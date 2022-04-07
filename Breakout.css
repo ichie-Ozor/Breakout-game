@@ -1,0 +1,67 @@
+body{
+  background-color: darkslategray;
+}
+
+.grid{
+    position: absolute;
+    width: 560px;
+    height: 300px;
+    border: solid black 3px;
+    margin-top: 80px;
+    border-radius: 10px;
+    margin-left: 400px;
+}
+
+.block{
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: blue;
+}
+
+.user{
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: gold;
+}
+
+.ball{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: red;
+}
+#score{
+  color: aliceblue;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.start{
+  margin-top: 420px;
+  margin-left: 550px;
+  margin-right: 0;
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: darkcyan;
+}
+
+.stop{
+  margin-top: 420px;
+  margin-left: 5px;
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: darkcyan;
+}
+.refresh{
+  margin-top: 420px;
+  margin-left: 5px;
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: darkcyan;
+}
